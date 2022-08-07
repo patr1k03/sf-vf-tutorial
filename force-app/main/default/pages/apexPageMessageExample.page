@@ -1,0 +1,29 @@
+<apex:page >
+    <apex:pageBlock >
+    <apex:pageBlockSection title="Strength 0" collapsible="false" >
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="error"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="warning"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="info"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="confirm"></apex:pageMessage>
+    </apex:pageBlockSection>
+    <apex:pageBlockSection title="Strength 1" collapsible="false" >
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="error" strength="1"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="warning" strength="1"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="info" strength="1"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="confirm" strength="1"></apex:pageMessage>
+    </apex:pageBlockSection>
+    <apex:pageBlockSection title="Strength 2" collapsible="false" >
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="error" strength="2"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="warning" strength="2"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="info" strength="2"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="confirm" strength="2"></apex:pageMessage>
+    </apex:pageBlockSection>
+    <apex:pageBlockSection title="Strength 3" collapsible="false" >
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="error" strength="3"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="warning" strength="3"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="info" strength="3"></apex:pageMessage>
+        <apex:pageMessage summary="validation message appear in the page message component. This message will always disappear" severity="confirm" strength="3"></apex:pageMessage>
+    </apex:pageBlockSection>
+
+    </apex:pageBlock>
+</apex:page>

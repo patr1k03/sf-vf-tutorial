@@ -1,0 +1,11 @@
+<apex:page sidebar="false" showHeader="false">
+    <apex:stylesheet value="{!$Resource.VF_STYLE_1}"></apex:stylesheet>
+    <h1>
+        Welcome to My VF Tutorial
+    </h1><br/>
+    <p>
+        This Tutorial contains visualforce coding with examples. This will help you become Salesforce Developer
+    </p><br/>
+    <apex:outputText styleClass="c-custom" value="My VF Tutorial" />
+
+</apex:page>

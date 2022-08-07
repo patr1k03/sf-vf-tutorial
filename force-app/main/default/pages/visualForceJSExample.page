@@ -1,0 +1,10 @@
+<apex:page showHeader="false" sidebar="false">
+    <apex:includeScript value="{!$Resource.JavaSStatic}" />
+    <apex:outputPanel layout="block">
+        <label for="checkbox">Click this box to change text font: </label>
+        <input id="checkbox" type="checkbox" onclick="changeFont(this,'{!$Component.thepanel}');"/>
+    </apex:outputPanel>
+    <apex:outputPanel id="thepanel" layout="block" >
+        Pratik Pandey from github.com/patr1k03
+    </apex:outputPanel>
+</apex:page>

@@ -1,0 +1,6 @@
+<apex:page >
+    <apex:stylesheet value="{!$Resource.VF_STYLE_1}"/>
+    <p>This is the overrided account tab page. 
+        let me know if you are able to see it
+    </p>
+</apex:page>

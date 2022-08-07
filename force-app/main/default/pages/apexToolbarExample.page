@@ -1,0 +1,15 @@
+<apex:page >
+<apex:toolbar id="toolbar" style="background:grey;" >
+    <apex:outputText value="Sample Toolbar"></apex:outputText>
+    <apex:toolbarGroup itemSeparator="line" id="toolbarGroup1">
+        <apex:outputLink value="www.salesforce.com">Salesforce</apex:outputLink>
+        <apex:outputLink value="www.paypal.com">Paypal</apex:outputLink>
+    </apex:toolbarGroup>
+    <apex:toolbarGroup itemSeparator="line" id="toolbarGroup2" location="right">
+        <apex:form >
+            <apex:inputText id="inputText">Enter Text: </apex:inputText>
+            <apex:commandButton id="search" value="Search"/>
+        </apex:form>
+    </apex:toolbarGroup>
+</apex:toolbar>
+</apex:page>

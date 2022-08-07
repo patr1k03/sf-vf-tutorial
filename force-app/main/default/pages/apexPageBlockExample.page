@@ -1,0 +1,14 @@
+<apex:page >
+    <apex:pageBlock title="First Block">
+        <apex:pageBlockSection title="First Section">
+            <apex:pageBlockSectionItem >Salesforce Developer</apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >Salesforce Admin</apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >Salesforce Consultant</apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Second Section">
+            <apex:pageBlockSectionItem >Sales Consultant</apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >Service Consultant</apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem >Marketing Consultant</apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
